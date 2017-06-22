@@ -1,0 +1,356 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;	
+} 
+header {
+  background-color: #313234;
+  height: 50px;
+} 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header  .logo {
+  margin: 10px 0;
+}
+header > nav ol {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header > nav ol > li {
+  display:inline-block;
+}
+header > nav ol > li > a {
+  line-height: 50px;
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header > nav ul > li > a:hover {
+  background: #ccc;
+}
+.hero {
+	width: 100%;
+	height: 70vh;
+	top padding: 42vh;
+	text-align: right;
+	background-image:url('https://images.pexels.com/photos/390392/pexels-photo-390392.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+	background-size: cover;
+	background-position: center;
+    overflow: hidden;
+    
+}  
+.slogan {
+	max-width: 800px;
+	background-color:rgba(0, 0, 0, 0.7);
+    float:right;
+	box-shadow: 2px 2px 10px #000;
+	border-radius: 10px;
+	color: white;
+	margin-top: 150px;
+	padding: 20px;
+	
+	
+}
+.another p {
+	color:lightgrey;
+}	
+section>.container {
+	margin: 50px auto;
+	text-align:center;
+	
+
+}
+* {
+	box-sizing: border-box;
+}
+.search {
+	background-color: black;
+	color: white;
+	border-radius: 80px;
+}
+.laptop {
+	background-color: blue;
+	color:white;
+}	
+.cogs {
+	background-color: black;
+	color: white;
+}
+.row:before, 
+.row:after {
+	content:"";
+	display: table ;
+	clear: both;
+ }
+.col {
+	float: left;
+	min-height: 1px;
+	padding: 15px;  
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+.another {
+	text-align: center;
+}
+img {
+	float:left;
+}
+.features i {
+	border-radius: 10px;
+	background-color: gray;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	color: white;
+	font-size: 30px;
+}	
+.features .col:hover h2 {
+	color: blue;
+}	
+.features .col:hover i {
+	background-color: blue;
+}
+.image1, .image2, .image3, .image4, .image5, .image6 {
+	height: 250px;
+	background-size: cover;	
+}
+.gallery .image1 {
+	background-image: url(http://i.imgur.com/AGEgF5B.jpg);
+}
+.gallery .image2 {
+	background-image: url(http://i.imgur.com/7Ff7rDB.jpg);
+}
+.gallery .image3 {
+	background-image: url(http://i.imgur.com/AGEgF5B.jpg);
+}
+.gallery .image4 {
+	background-image: url(http://i.imgur.com/7Ff7rDB.jpg);
+}
+.gallery .image5 {
+	background-image: url(http://i.imgur.com/AGEgF5B.jpg);
+}
+.gallery .image6 {
+	background-image: url(http://i.imgur.com/7Ff7rDB.jpg);
+}
+
+.gallery .col {
+	padding: 0;	
+}
+.gallery .layer {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	transition: 0.5s;
+}
+.gallery .layer i {
+	line-height: 250px;
+	color: transparent;
+	font-size: 20px;
+	margin: 0 15px;
+	transition: 0.5s;
+}
+.gallery .col:hover .layer {
+	background-color: rgba(0,0,0,0.5);	
+}
+.gallery .col:hover .layer i {
+	color: white;
+}	
+.team-member {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-image: url(http://st1.bollywoodlife.com/wp-content/uploads/photos/hrithik-roshan-voted-second-sexiest-man-in-asia-201512-645079.jpg);
+	background-size: cover;
+	border: 1px solid #e6e6e6;
+}
+.team .layer p {
+	margin: 0;
+	line-height: 200px;
+	border-radius: 50%;
+	color: transparent;
+	font-size: 24px;
+	transition: 0.5s;
+}
+p.name {
+	color: gray;
+}	
+.team .team-member .layer {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.team .team-member:hover .layer {	
+	background-color: rgba(0,0,0,0.5);	
+}
+.team .team-member:hover .layer p {
+	color: white;
+}
+.picture  {
+	background-color: gray;
+	min-height: 257px;
+    overflow: hidden;
+    
+}
+.picture .container {
+	text-align: left;
+}
+.picture h1, .picture p {
+	margin:0;
+}
+.heading {
+	padding-top: 0;
+	padding-bottom: 0;
+}	
+.picture img {
+    width: 290px;
+    padding-top: 26px;
+    padding-left: 125px;
+    padding-bottom: 0px;
+    height: 250px;
+    position: absolute;
+    right: 34px;
+	
+}	
+.picture .row div:nth-child(2) h1, p {
+	color: white;
+}
+.numbers p {
+	color:black;
+	font-weight: bold;
+	font-size: 17pt;
+}
+.numbers p.text {
+	color:blue;
+	margin-top: -19px;
+}	
+footer {
+	background-color: gray;
+}	
+
+
+.social {
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+
+}
+.icon-btn {
+	height: 25px;
+	width:  25px;
+	border: none;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 10px;
+	line-height: 25px;
+}
+.twitter {
+	color:blue;
+}
+.facebook {
+	color: blue;
+}
+.google-plus {
+	color: blue;
+}
+.instagram {
+	color: blue;
+}
+.github {
+	color: blue;
+}
+.padding {
+	padding-bottom: 0;
+	position: relative;
+}
+.numbers .container {
+	padding-left: 140px;
+	padding-right: 140px;
+}	
+		
+.footer-bottom {
+	width: 100%;
+}	
+.footer {
+	background-color: black;
+	
+}
+.footer .container {
+	margin: 0;
+}
+.footer-bottom p {
+	margin:0;
+}
+footer h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+
+} 
+footer h2:after {
+    background-color:white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    left: 0.5em;
+    margin-right: -50%;
+
+}
+
+
+
+footer div:nth-child(2) p {
+    text-align: left;
+}
+.center-column .col {
+	padding: 0;	
+}
+.center-column p {
+    margin-top: 0;	
+}
+.social {
+    margin: 0;
+    width: 200px;
+    text-align: left;
+}
+footer  {
+	background-color: #262626;
+	color: white;
+}	
+	
+	
+	
